@@ -10,7 +10,7 @@ const submited = () => {
 
   axios({
     method: "get",
-    url: `https://geo.ipify.org/api/v2/country,city?apiKey=at_S4giVY1k59DvNcCdx7pf1IU1bf46z&ipAddress=${searchInput.value}`,
+    url: `https://geo.ipify.org/api/v2/country,city?apiKey=${process.env.IPFY_API_KEY}&ipAddress=${searchInput.value}`,
   }).then((res) => {
     console.log("res: ", res.data.location);
     if (res.data.location.city) {
