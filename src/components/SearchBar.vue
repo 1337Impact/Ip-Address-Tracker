@@ -50,9 +50,9 @@ $dimmed-white-color: #e8e8e8;
 
 .search {
   position: absolute;
-  height: 150px;
+  height: 130px;
   width: 40%;
-  top: 100px;
+  top: calc(10% - 30px);
   left: 50%;
   transform: translateX(-50%);
   display: flex;

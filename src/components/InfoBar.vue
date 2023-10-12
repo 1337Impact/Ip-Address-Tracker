@@ -34,7 +34,7 @@ $black-color: #222222;
 
 .info-bar {
   position: absolute;
-  top: 350px;
+  top: 23%;
   left: 50%;
   transform: translateX(-50%);
   width: 80%;
