@@ -17,7 +17,6 @@
 import "leaflet/dist/leaflet.css";
 import { LMap, LTileLayer } from "@vue-leaflet/vue-leaflet";
 import { location } from "./location-data";
-// import Notification from "./Notification.vue"
 
 export default {
   components: {
